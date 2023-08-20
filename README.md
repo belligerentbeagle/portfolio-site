@@ -11,6 +11,7 @@ A simple portfolio starter theme built with React and Tailwind CSS. This is the 
 ## Coming features
 
 -   Press features
+-   Story telling approach to portfolio website
 -   Testimonials from friends
 -   Cursor changing
 -   Animations and flowy background
