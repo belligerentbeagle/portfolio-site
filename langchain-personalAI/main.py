@@ -41,7 +41,7 @@ load_dotenv()
 # extract the text
 text = ""
 
-pdf_reader = PdfReader("./data/formalresume.pdf") #not sure if this works 
+pdf_reader = PdfReader("./formalresume.pdf") #not sure if this works 
 for page in pdf_reader.pages:
         text += page.extract_text()
 
