@@ -32,7 +32,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
-
+import os
 
 # def main():
 load_dotenv()
@@ -40,8 +40,9 @@ load_dotenv()
 # upload file
 # extract the text
 text = ""
-
-pdf_reader = PdfReader("./formalresume.pdf") #not sure if this works 
+path = os.path.dirname(__file__)
+my_file = path+'/formalresume.pdf'
+pdf_reader = PdfReader(my_file) #not sure if this works 
 for page in pdf_reader.pages:
         text += page.extract_text()
 
