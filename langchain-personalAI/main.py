@@ -19,7 +19,7 @@ st.set_page_config(page_title="Personal AI")
 # st.markdown("<h1 style='text-align: center; color: black;'>JDI Internal AI</h1>", unsafe_allow_html=True)
 st.header("Ethan Wei's Personal AI")
 """
-Beta version, updated as of 20 Aug 2023
+Beta version, updated as of 20 Aug 2023, link to Ethan's portfolio site: https://www.ethanwei.me
 """
 
 
