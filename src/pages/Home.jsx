@@ -35,9 +35,11 @@ const Home = () => {
 				</Link>
 			</div>
 
-			{// eslint-disable-next-line react/style-prop-object}
-			<iframe title="spotifyplayer" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZdLqpoFOt65?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+			<div className="mt-8 sm:mt-10 flex justify-center">
+				{/* eslint-disable-next-line react/style-prop-object*/}
+				<iframe title="spotify-playlist"  src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZdLqpoFOt65?utm_source=generator" width="100%" height="532" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+			</div>
 
 		</div>
 	);
