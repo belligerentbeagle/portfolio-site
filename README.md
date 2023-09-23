@@ -44,3 +44,10 @@
 ### Crediting
 
 Made with https://github.com/realstoman/react-tailwindcss-portfolio/
+
+
+## Note for self:
+1. make edits
+2. $export NODE_OPTIONS=--openssl-legacy-provider
+3. $yarn build
+4. $firebase deploy
