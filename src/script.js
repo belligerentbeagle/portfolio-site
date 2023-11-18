@@ -1,3 +1,4 @@
+
 const words = ["Computer Science student at NUS.", "nerd.", "coding beginner.", "piano noob."];
 const typeEl = document.querySelector(".variabletext");
 let idx = 0;

@@ -16,8 +16,7 @@ const Home = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1, delay: 1 }}
 					exit={{ opacity: 0 }}
-					className="container mx-auto"
-				>
+					className="container mx-auto">
 					<AboutClients />
 				</motion.div>
 			</AboutMeProvider>
@@ -40,6 +39,7 @@ const Home = () => {
 				{/* eslint-disable-next-line react/style-prop-object*/}
 				<iframe title="spotify-playlist"  src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZdLqpoFOt65?utm_source=generator" width="100%" height="532" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 			</div>
+
 
 		</div>
 	);
