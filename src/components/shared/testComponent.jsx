@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 function TestComponent() {
-  const words = ["Computer Science + Psychology student at NUS 🧠.","problem solver 🤯.", 
+  const words = ["Computer Science + Psychology student at NUS 🧠.",
   "Head of Product at NUS Google Devloper Student Club 🦖.", "Co-Founder at Surf 🏄 (funded start up).", 
-  "piano noob 🎹.", "Hackathon winner 🏅."]; 
+  "Hackathon winner 🏅.","problem solver 🤯.", "piano noob 🎹."]; 
   const [typed, setTyped] = useState('');
   const [highlight, setHighlight] = useState(false);
   let idx = 0;
@@ -23,7 +23,7 @@ function TestComponent() {
         setTyped('');
         idx = idx < words.length - 1 ? idx + 1 : 0;
         startType(words[idx], 0);
-      }, 2500);
+      }, 2000);
     }
   };
 

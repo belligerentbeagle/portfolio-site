@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
 import AboutClients from '../components/about/AboutClients';
 import { AboutMeProvider } from '../context/AboutMeContext';
-import ProjectsGrid from '../components/projects/ProjectsGrid';
+import ProjectsGridShort from '../components/projects/ProjectsGridShort';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
 import { motion } from 'framer-motion';
@@ -21,7 +21,7 @@ const Home = () => {
 				</motion.div>
 			</AboutMeProvider>
 			<ProjectsProvider>
-				<ProjectsGrid></ProjectsGrid>
+				<ProjectsGridShort></ProjectsGridShort>
 			</ProjectsProvider>
 
 			<div className="mt-8 sm:mt-10 flex justify-center">

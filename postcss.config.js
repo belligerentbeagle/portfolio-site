@@ -1,4 +1,19 @@
 const tailwindcss = require('tailwindcss');
 module.exports = {
-	plugins: [tailwindcss('./tailwind.config.js'), require('autoprefixer')],
-};
+	plugins: {
+	  tailwindcss: './tailwind.config.js',
+	  autoprefixer: {},
+	  'postcss-preset-mantine': {},
+	  'postcss-simple-vars': {
+		variables: {
+		  'mantine-breakpoint-xs': '36em',
+		  'mantine-breakpoint-sm': '48em',
+		  'mantine-breakpoint-md': '62em',
+		  'mantine-breakpoint-lg': '75em',
+		  'mantine-breakpoint-xl': '88em',
+		},
+	  },
+	  // Add any other PostCSS plugins you may need here
+	},
+  };
+  

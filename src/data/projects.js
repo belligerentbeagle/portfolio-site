@@ -5,16 +5,17 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
+import JDIpic from '../images/jdiAI.png';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Surf | ChatGPT for Smart Contracts', //why need repeat twice?
+		title: 'Internal AI tool for JDI', //why need repeat twice?
 		category: 'Web Application',
-		img: WebImage2,
+		img: JDIpic,
 		ProjectHeader: {
-			title: 'Surf | ChatGPT for Smart Contracts',
-			publishDate: 'Jul 26, 2021',
+			title: 'Internal AI tool for JDI',
+			publishDate: 'November 18, 2023',
 			tags: 'UI / Frontend',
 		},
 	},
@@ -54,4 +55,15 @@ export const projectsData = [
 		category: 'Welfare',
 		img: WebImage1,
 	},
+	{
+		id: 8,
+		title: 'Surf | ChatGPT for Smart Contracts', //why need repeat twice?
+		category: 'Web Application',
+		img: WebImage2,
+		ProjectHeader: {
+			title: 'Surf | ChatGPT for Smart Contracts',
+			publishDate: 'Jul 26, 2021',
+			tags: 'UI / Frontend',
+		},
+	}
 ];

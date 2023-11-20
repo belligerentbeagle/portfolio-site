@@ -64,7 +64,7 @@ export const singleProjectData = {
 		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-			'noth',
+			'Complete my internship',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
@@ -72,7 +72,7 @@ export const singleProjectData = {
 					'HTML',
 					'CSS',
 					'JavaScript',
-					"AI", 
+					"AI",
 					"Security", 
 					"FrontEnd", 
 					"Django", 
@@ -80,7 +80,7 @@ export const singleProjectData = {
 				],
 			},
 		],
-		ProjectDetailsHeading: 'Challenge',
+		ProjectDetailsHeading: 'Story',
 		ProjectDetails: [
 			{
 				id: 1,
