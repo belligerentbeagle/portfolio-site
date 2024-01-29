@@ -7,6 +7,7 @@
 ## Coming features (Skill learnt, Purpose)
 
 - [ ] Story telling approach to portfolio website (, Less traditional more eyecatching)
+- [ ] Friends giving 5 star-rated reviews of me.
 - [ ] Scrolling Testimonials from friends that pause on hover (, Responsive web design)
 - [ ] Cursor changing (, just cool feature)
 - [ ] Animations and flowy background (, just cool feature)
@@ -55,3 +56,8 @@ Made with https://github.com/realstoman/react-tailwindcss-portfolio/
 2. $export NODE_OPTIONS=--openssl-legacy-provider
 3. $yarn build
 4. $firebase deploy
+
+
+stuck at: import { withStyles } from '@mui/material/styles';
+
+https://mantine.dev/getting-started/
